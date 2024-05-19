@@ -11,3 +11,10 @@ let numbersMulti: number[][][] = [ [[1],[2,3]], [[7],bestNumbers] ];
 
 //Tuples:
 let favoriteCoordinates: [number, number, string, number, number, string] = [17, 45, 'N', 142, 30, 'E'];
+
+//Converting tuple into array
+let dogTup: [string, string, string, string] = ['dog', 'brown fur', 'curly tail', 'sad eyes'];
+
+
+let myArr = dogTup.concat()
+myArr[50] = "not a dog"
