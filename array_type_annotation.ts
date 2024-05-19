@@ -8,3 +8,6 @@ let bestBooleans :boolean[] = [true, false];
 let bestMealPlan: string[][] = [bestLunches, bestBreakfasts, ['baked potato', 'mashed potato']];
 let bestBooleansTwice: boolean[][] = [bestBooleans, bestBooleans];
 let numbersMulti: number[][][] = [ [[1],[2,3]], [[7],bestNumbers] ];
+
+//Tuples:
+let favoriteCoordinates: [number, number, string, number, number, string] = [17, 45, 'N', 142, 30, 'E'];
