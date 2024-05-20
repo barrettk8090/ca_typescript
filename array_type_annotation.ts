@@ -18,3 +18,14 @@ let dogTup: [string, string, string, string] = ['dog', 'brown fur', 'curly tail'
 
 let myArr = dogTup.concat()
 myArr[50] = "not a dog"
+
+//Rest parameters
+function addPower(p: number, ...numsToAdd: number[]):number {
+    let answer = 0;
+    for (let i = 0; i < numsToAdd.length; i++) {
+      answer += numsToAdd[i] ** p;
+    }
+    return answer;
+  }
+
+addPower(2, 3, 4)
